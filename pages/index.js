@@ -6,13 +6,13 @@ import Header from "../components/Header";
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation, Pagination} from 'swiper';
 
-import { useIntercom } from 'react-use-intercom';
+//import { useIntercom } from 'react-use-intercom';
 import Footer from "../components/Footer";
 
 
 export default function Home({}) {
 
-	const { hide, show, update } = useIntercom();
+	//const { hide, show, update } = useIntercom();
 
 	return (
 		<div className="w-full h-full">
