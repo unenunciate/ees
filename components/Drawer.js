@@ -49,7 +49,7 @@ const Drawer = ({ open, setOpen }) => {
           <div className="flex flex-col items-center justify-between w-full min-h-[30vh]">
             <Link href="/">
                 <a className="flex w-1/3 h-auto border-2 border-yellow-600 rounded-lg shadow-md hover:ring-2 hover:ring-yellow-600 active:scale-75 hover:brightness-150 shadow-yellow-600">
-                    <img src="/EES-logo.png" className="w-full h-full rounded-lg" />
+                    <img src={`${process.env.NEXT_PUBLIC_CDN_URL}EES-logo.png`} className="w-full h-full rounded-lg" />
                 </a>
             </Link>
 
@@ -72,7 +72,7 @@ const Drawer = ({ open, setOpen }) => {
             </div>
 
             <Link href="/contact">
-							<a href="/contact" className="text-black bg-yellow-400 hover:bg-yellow-600 active:scale-75 focus:ring-4 focus:ring-yellow-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 focus:outline-none">Request Quote</a>
+							<a className="text-black bg-yellow-400 hover:bg-yellow-600 active:scale-75 focus:ring-4 focus:ring-yellow-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 focus:outline-none">Request Quote</a>
 						</Link>
           </div>
 
