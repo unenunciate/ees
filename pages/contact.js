@@ -1,4 +1,5 @@
 import Head from "next/head";
+import Image from "next/image";
 
 import Header from "../components/Header";
 import Footer from "../components/Footer";
@@ -18,7 +19,7 @@ export default function About({}) {
 			<Header />
 
 			<section className="relative flex flex-col justify-center items-center min-h-[90vh] bg-black md:px-0 w-full py-8">
-                <img className="absolute top-0 z-0 flex w-full h-full blur-sm grayscale" src={`${process.env.NEXT_PUBLIC_CDN_URL}circle-event.jpg`}/>
+                <Image width={256} height={256} layout="fill" className="absolute top-0 z-0 flex w-full h-full blur-sm grayscale" src={`${process.env.NEXT_PUBLIC_CDN_URL}circle-event.jpg`}/>
 
 				<h1 className="relative flex justify-center w-1/2 py-2 my-16 text-3xl font-bold text-center text-black bg-yellow-400 rounded-lg shadow-md lg:w-1/4 shadow-gray-700">Quote Request</h1>
 

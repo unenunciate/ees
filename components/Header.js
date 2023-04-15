@@ -16,7 +16,7 @@ const Header = () => {
                     <div className="flex flex-row justify-between w-full h-full">
                         <div className="flex items-center w-1/4 h-full">
                             <Link href="/" >
-                                <a className="flex items-center h-full px-6 rounded-lg hover:brightness-75 active:scale-75"><Image width={64} height={64} src={`${process.env.NEXT_PUBLIC_CDN_URL}EES.png`} layout="fixed" /></a>
+                                <a className="flex items-center h-full px-6 rounded-lg hover:brightness-75 active:scale-75"><Image width={64} height={64} src={`${process.env.NEXT_PUBLIC_CDN_URL}EESAlpha.png`} layout="fixed" /></a>
                             </Link>
                         </div>
 
