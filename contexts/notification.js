@@ -1,4 +1,3 @@
-import { initStytch, StytchProvider } from '@stytch/stytch-react';
 import { createContext, useState, useMemo} from 'react';
 
 const NotificationContext = createContext(null);
