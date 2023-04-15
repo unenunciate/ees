@@ -4,11 +4,11 @@ import Header from "../components/Header";
 import Footer from "../components/Footer";
 
 
-import { useIntercom } from 'react-use-intercom';
+//import { useIntercom } from 'react-use-intercom';
 
 export default function About({}) {
 
-	const { hide, show, update } = useIntercom();
+	//const { hide, show, update } = useIntercom();
 
 	return (
 		<div className="w-full h-full">
